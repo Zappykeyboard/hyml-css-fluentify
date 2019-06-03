@@ -10,21 +10,32 @@ header{
 }
 
 
+/*sezioni grandi*/
 .big{
   height: 400px;
   border: 1px solid black;
 }
 
+/*sezioni piccole*/
  .small{
   height: 70px;
   border: 1px solid black;
 }
 
+/*tutte le colonne*/
 .column{
-  height: 400px;
-  border: 1px solid black;
+    border: 1px solid black;
 }
 
+/*colonne di sezioni grandi*/
+.big .column{
+  height: 400px;
+}
+
+/*colonne di sezioni piccole*/
+.small .column{
+  height: 70px;
+}
 
 .two-columns .column{
   width: 50%;
