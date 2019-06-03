@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  height: 70px;
+  background-color: blue;
+}
+
+section{
+  height: 250px;
+  background-color: green;
+  border: 1px solid black
+}
+
+.column{
+  background-color: yellow;
+  height: 100px;
+  border: 1px solid black;
+  box-sizing: border-box
+}
+
+.two-columns .column{
+  position: relative;
+  width: 50%;
+  float:left;
+}
+#column-container:after{
+  content: "";
+  display: table;
+  clear:both
+}
+
+footer{
+  height:250px;
+  background-color: blue;
+}
+
+.
