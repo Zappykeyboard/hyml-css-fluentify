@@ -13,13 +13,11 @@ header{
 /*sezioni grandi*/
 .big{
   height: 400px;
-  border: 1px solid black;
 }
 
 /*sezioni piccole*/
  .small{
   height: 70px;
-  border: 1px solid black;
 }
 
 /*tutte le colonne*/
@@ -65,9 +63,20 @@ header{
   transform: translate(-50%,-50%);
 }
 
+/*regole per il testo*/
+
 /*colori del testo*/
 .text-white{
   color: white;
+}
+
+.text-green{
+  color: green;
+}
+
+/*testo centrato*/
+.text-align-center{
+  text-align: center;
 }
 
 /*colori di sfondo*/
