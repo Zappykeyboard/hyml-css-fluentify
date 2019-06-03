@@ -25,6 +25,7 @@ header{
 /*tutte le colonne*/
 .column{
     border: 1px solid black;
+    position: relative;
 }
 
 /*colonne di sezioni grandi*/
@@ -37,23 +38,39 @@ header{
   height: 70px;
 }
 
+/*due colonne*/
 .two-columns .column{
   width: 50%;
   float:left;
 }
 
+/*tre colonne*/
 .three-columns .column{
   float:left;
   width: 33.3%;
 }
 
-
+/*clearfix*/
 #row:after{
   content: "";
   display: table;
   clear:both
 }
 
+/*elementi centrati*/
+.centered{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+/*colori del testo*/
+.text-white{
+  color: white;
+}
+
+/*colori di sfondo*/
 .bk-white{
   background-color: white;
 }
@@ -66,7 +83,11 @@ header{
   background-color: grey;
 }
 
+.bk-green{
+  background-color: greenyellow;
+}
+
 footer{
-  height:250px;
+  height:auto;
   background-color: blue;
 }
