@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-header{
-  height: 70px;
-  background-color: blue;
-}
-
-
 /*sezioni grandi*/
 .big{
   height: 400px;
@@ -107,7 +101,4 @@ header{
   width: 100px;
 }
 
-footer{
-  height:auto;
-  background-color: blue;
-}
+
