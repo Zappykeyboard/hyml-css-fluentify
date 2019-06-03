@@ -9,32 +9,43 @@ header{
 }
 
 section{
-  height: 250px;
+  height: 400px;
   background-color: green;
-  border: 1px solid black
+  border: 1px solid black;
 }
 
 .column{
-  background-color: yellow;
-  height: 100px;
+  height: 450px;
   border: 1px solid black;
-  box-sizing: border-box
+  box-sizing: border-box;
+
 }
 
 .two-columns .column{
   position: relative;
   width: 50%;
   float:left;
+  background-color: yellow;
 }
-#column-container:after{
+
+.three-columns .column{
+  position: relative;
+  float:left;
+  width: 33.3%;
+  background-color: red;
+}
+
+#row:after{
   content: "";
   display: table;
   clear:both
 }
 
+
+
+
+
 footer{
   height:250px;
   background-color: blue;
 }
-
-.
