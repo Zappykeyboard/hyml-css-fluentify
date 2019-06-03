@@ -23,21 +23,18 @@ section{
 
 .one-column .column{
   position: relative;
-  background-color: coral;
 }
 
 .two-columns .column{
   position: relative;
   width: 50%;
   float:left;
-  background-color: yellow;
 }
 
 .three-columns .column{
   position: relative;
   float:left;
   width: 33.3%;
-  background-color: red;
 }
 
 
@@ -47,8 +44,13 @@ section{
   clear:both
 }
 
+.bk-white{
+  background-color: white;
+}
 
-
+.bk-blue{
+  background-color: blue;
+}
 
 
 footer{
