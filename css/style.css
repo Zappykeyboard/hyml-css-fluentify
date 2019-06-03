@@ -15,10 +15,15 @@ section{
 }
 
 .column{
-  height: 450px;
+  height: 400px;
   border: 1px solid black;
   box-sizing: border-box;
 
+}
+
+.one-column .column{
+  position: relative;
+  background-color: coral;
 }
 
 .two-columns .column{
@@ -34,6 +39,7 @@ section{
   width: 33.3%;
   background-color: red;
 }
+
 
 #row:after{
   content: "";
